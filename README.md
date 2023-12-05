@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Este relatório tem como objetivo esclarecer os pontos implementados no projeto e fornecer orientações para sua execução. A arquitetura abrange a configuração de um Application Load Balancer (ALB), instâncias EC2 com Auto Scaling e um banco de dados RDS.
+Este relatório tem como objetivo esclarecer os pontos implementados no projeto e fornecer orientações para sua execução. A arquitetura abrange a configuração de um Application Load Balancer (ALB), instâncias EC2 com Auto Scaling, um banco de dados RDS e outros recursos providos pela AWS.
 
 ## Diretrizes Técnicas do Projeto
 
