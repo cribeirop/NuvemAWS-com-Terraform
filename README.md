@@ -46,11 +46,11 @@ Este relatório tem como objetivo esclarecer os pontos implementados no projeto 
 - Consideração dos custos de todos os recursos utilizados (EC2, ALB, RDS, etc.).
 - Preparação de um relatório abrangente com a previsão de custos, destacando os principais gastos e possíveis otimizações.
 
-## Diagrama da arquitetura AWS: 
+## Diagrama da arquitetura AWS 
 
 ![Diagrama](./arquitetura.jpg)
 
-## Considerações sobre a estimativa de preços AWS - Total de 12 meses: 2.00,28 USD  
+## Considerações sobre a estimativa de preços AWS - Total de 12 meses: 2.000,28 USD  
 
 #### Amazon EC2: 15,18 USD / mês
 - Locação: Instâncias compartilhadas;
@@ -97,7 +97,7 @@ As especificações de instância dos recursos AWS foram pautadas em aplicaçõe
 1. Instalar o Terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
 2. AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
 
-#### Comandos para execução do projeto:
+#### Comandos para execução do projeto
 
 1. Inicializar o Terraform: `terraform init`
 2. Verificar o plano de execução: `terraform plan -var-file="secrets.tfvars"`
@@ -112,9 +112,9 @@ O arquivo `secrets.tfvars` contém credenciais para o acesso ao banco de dados R
 3. Para destruir a infraestrutura: `terraform destroy`
 
 
-## Algumas referências: 
+## Algumas referências
 - https://antonputra.com/amazon/create-alb-terraform/#create-aws-alb-with-ec2-backend
 - https://registry.terraform.io/providers/hashicorp/aws/latest/docs
-- https://devopslearning.medium.com 100-days-of-devops-day-21-mysql-rds-database-creation-using-terraform-278eeaff339f
+- https://devopslearning.medium.com100-days-of-devops-day-21-mysql-rds-database-creation-using-terraform-278eeaff339f
 - https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables
 - https://terraformguru.com/terraform-real-world-on-aws-ec2/
